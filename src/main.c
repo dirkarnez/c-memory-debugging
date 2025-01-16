@@ -38,6 +38,15 @@ struct dylinker_command_for_dyld_only {
 };
 
 
+// #include<stdio.h>
+
+// int main(){
+//     char data[] = { 'a', 'b', 'c' };
+//     fwrite(&data,sizeof(char),3,stdout);
+//     fflush(stdout);
+//     return 0;
+// }
+
 int main()
 {
     struct dylinker_command_for_dyld_only dyld;
